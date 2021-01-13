@@ -11,6 +11,9 @@
 # production
 /build
 
+#tailwind (tailwindCSS file now managed by CRACO)
+.eslintcache
+
 # misc
 .DS_Store
 .env.local
