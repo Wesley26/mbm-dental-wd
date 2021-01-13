@@ -1,4 +1,4 @@
-![MBM Dental Studios Logo](/images/logoImages/MBMDentalLogo_Year.png)
+![MBM Dental Studios Logo](https://github.com/Wesley26/mbm-dental-wd/blob/master/src/images/logoImages/MBMDentalLogo_Year.png)
 
 
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Implements [TailwindCSS](https://tailwindcss.com/), [PostCSS](https://www.npmjs.com/package/postcss), [Autoprefixer](https://www.npmjs.com/package/autoprefixer), [CRACO aka create react app configuration override](https://github.com/gsoft-inc/craco), [React Spring](https://www.react-spring.io/), [React Router DOM](https://www.npmjs.com/package/react-router-dom), 
