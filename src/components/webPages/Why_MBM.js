@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Header from './webPageLinks/Header.js';
+import Header from '../../components/webPageCore/Header.js';
 
-const Contact_Us = () => {
+const Why_MBM = () => {
 
     return (
     <div>
@@ -11,7 +11,7 @@ const Contact_Us = () => {
   
         <div className="bg-gray-300 h-64 w-64">
           <h3 className="pt-5 flex justify-center">
-            This is the Contact_Us content
+            This is the Why_MBM content
           </h3>
         </div>
   
@@ -19,4 +19,4 @@ const Contact_Us = () => {
     );
 };
 
-export default Contact_Us;
+export default Why_MBM;

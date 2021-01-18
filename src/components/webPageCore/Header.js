@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { noImage, websiteMasterLogo } from '../../webPages/webPageLinks/ContentMaster.js';
+import { noImage, websiteMasterLogo } from '../../components/webPageCore/ContentMaster.js';
 
 const Header = () => {
 

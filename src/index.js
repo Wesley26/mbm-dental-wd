@@ -5,12 +5,12 @@ import { useTransition, animated } from 'react-spring';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Contact_Us from './webPages/Contact_Us.js';
-import Portfolio_Casework from './webPages/Portfolio_Casework.js';
-import Services from './webPages/Services.js';
-import Why_MBM from './webPages/Why_MBM.js';
+import Contact_Us from './components/webPages/Contact_Us.js';
+import Portfolio_Casework from './components/webPages/Portfolio_Casework.js';
+import Services from './components/webPages/Services.js';
+import Why_MBM from './components/webPages/Why_MBM.js';
 
-const App = () => {
+export const App = () => {
 
   /**
    *  There is no App.js, and App component MUST be located in index.js
@@ -44,8 +44,6 @@ const App = () => {
 
   ));
 };
-
-export default App;
 
 render(
   <BrowserRouter>

@@ -1,17 +1,17 @@
 import React from 'react';
 
-import Header from './webPageLinks/Header.js';
+import Header from '../../components/webPageCore/Header.js';
 
-const Services = () => {
+const Contact_Us = () => {
 
     return (
     <div>
-       
+        
         <Header />
   
         <div className="bg-gray-300 h-64 w-64">
           <h3 className="pt-5 flex justify-center">
-            This is the Services content
+            This is the Contact_Us content
           </h3>
         </div>
   
@@ -19,4 +19,4 @@ const Services = () => {
     );
 };
 
-export default Services;
+export default Contact_Us;
