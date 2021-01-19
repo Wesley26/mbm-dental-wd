@@ -5,7 +5,7 @@ import Header from '../../components/webPageCore/Header.js';
 const Portfolio_Casework = () => {
 
     return (
-    <div>
+    <div className="bg-gray-100">
         
         <Header />
   

@@ -5,7 +5,7 @@ import Header from '../../components/webPageCore/Header.js';
 const Contact_Us = () => {
 
     return (
-    <div>
+    <div className="bg-gray-100">
         
         <Header />
   

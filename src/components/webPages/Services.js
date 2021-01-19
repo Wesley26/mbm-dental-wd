@@ -5,7 +5,7 @@ import Header from '../../components/webPageCore/Header.js';
 const Services = () => {
 
     return (
-    <div>
+    <div className="bg-gray-100">
        
         <Header />
   

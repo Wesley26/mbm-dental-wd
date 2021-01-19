@@ -22,7 +22,23 @@
   * /////////////////////////////////////////////////// UNIVERSAL PAGE CONTENT /////////////////////////////////////////////////////////////////
   */
 
-   const noImage = "Image has failed to load."; //Image failed to load message.
+  const noImage = "Image has failed to load."; //Image failed to load message.
+
+  /**
+  * /////////////////////////////////////////////////// HEADER PAGE CONTENT ////////////////////////////////////////////////////////////////////
+  */
+
+  /**
+   *  Navigation text option contents for Header.js
+   *  navOption1 = Why MBM page
+   *  navOption2 = Services page
+   *  navOption3 = Portfolio Casework page
+   *  navOption4 = Contact Us page
+   */
+  const navOption1 = "Why MBM";
+  const navOption2 = "Services";
+  const navOption3 = "Portfolio Casework";
+  const navOption4 = "Contact Us";
 
   /**
   * /////////////////////////////////////////////////// CONTACT_US PAGE CONTENT ////////////////////////////////////////////////////////////////
@@ -43,7 +59,12 @@
   export { 
     websiteMasterLogo,
     /////////////////////
-    noImage
+    noImage,
+    /////////////////////
+    navOption1,
+    navOption2,
+    navOption3,
+    navOption4,
     /////////////////////
   };
   
