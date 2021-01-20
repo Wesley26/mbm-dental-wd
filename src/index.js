@@ -30,7 +30,7 @@ export const App = () => {
     <animated.main 
       key={key} 
       style={props} 
-      className="bg-gray-100 p-3 absolute top-0 bottom-0 left-0 right-0">
+      className="bg-gray-100 p-3 absolute top-0 bottom-0 left-0 right-0 flex justify-center overflow-auto lg:block">
 
       <Switch location={location}>
         <Route path="/" exact component={Why_MBM} />

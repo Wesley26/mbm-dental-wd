@@ -9,7 +9,7 @@ const Portfolio_Casework = () => {
         
         <Header />
   
-        <div className="bg-gray-300 h-64 w-64">
+        <div className="bg-gray-300 h-max w-max grid justify-center">
           <h3 className="pt-5 flex justify-center">
             This is the Portfolio Casework content
           </h3>

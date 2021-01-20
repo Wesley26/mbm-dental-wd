@@ -9,7 +9,7 @@ const Contact_Us = () => {
         
         <Header />
   
-        <div className="bg-gray-300 h-64 w-64">
+        <div className="bg-gray-300 h-max w-max grid justify-center">
           <h3 className="pt-5 flex justify-center">
             This is the Contact_Us content
           </h3>

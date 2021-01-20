@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     enabled: false,
-      content: [ './src/**/*.js' ],
+      content: [ './src/**/**/*.js' ],
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -10,7 +10,7 @@ module.exports = {
         'navColor': '#cccccc',
       },
       fontFamily: {
-        'navFontFamily': ['Times-New-Roman', 'system-ui'],
+        'navFontFamily': ['Helvetica Neue', 'serif'],
       },
       fontSize: {
         'navText': '2.5rem',
